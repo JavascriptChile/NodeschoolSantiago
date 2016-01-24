@@ -48,33 +48,11 @@ default_category: uncategorized
 category_map:
 tag_map:
 
-# Integrate all the official minifier plugins of HEXO and a imagemin plugin:
 ## hexo-html-minifier, which is based on HTMLMinifier
-## hexo-clean-css, which is based on clean-css
-## hexo-uglify, which is based on UglifyJS
-## hexo-imagemin, which is based on imagemin
 html_minifier:
-  enable: true
   exclude: 
-css_minifier:
-  enable: true
-  exclude: 
-    - *.min.css
-js_minifier:
-  enable: true
-  mangle: true
-  output:
-  compress:
-  exclude: 
-    - *.min.js
-image_minifier:
-  enable: true
-  interlaced: false
-  multipass: false
-  optimizationLevel: 2
-  pngquant: false
-  progressive: false
-        
+
+
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
@@ -90,7 +68,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: jekyll
+theme: hexo-theme-ttstyle
 
 # Feed 
 ## URL: https://github.com/pinggod/hexo-theme-jekyll

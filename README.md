@@ -10,13 +10,14 @@ Como correr
 
 Como agregar un Post
 ---
-* hexo new [layout] <title>
-(post is the default layout, but you can supply your own. You can change the default layout by editing the default_layout setting in _config.yml.)
+* hexo new [layout] "title"
 
 Layout  -	  Path
 post	  -   source/_posts
 page    -   source
 draft	  -   source/_drafts
+
+
 
 
 Setear Entorno

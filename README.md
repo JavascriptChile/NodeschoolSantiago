@@ -13,8 +13,11 @@ Como agregar un Post
 * hexo new [layout] "title"
 
 Layout  -	  Path
+
 post	  -   source/_posts
+
 page    -   source
+
 draft	  -   source/_drafts
 
 
